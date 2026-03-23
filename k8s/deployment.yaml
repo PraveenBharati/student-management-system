@@ -27,7 +27,7 @@ spec:
       containers:
         - name: student-app
           # Jenkins will update this image tag automatically
-          image: <AWS_ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/student-management:latest
+          image: 992382828560.dkr.ecr.us-east-1.amazonaws.com/student-management:latest
           ports:
             - containerPort: 8080
 
